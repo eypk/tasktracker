@@ -1,12 +1,12 @@
 import { View, Text, StyleSheet } from "react-native";
 import React from "react";
 
-const TaskCounter = () => {
+const TaskCounter = (props) => {
   return (
     <View style={styles.counterContainer}>
       <View style={styles.counter}>
         <Text style={styles.counterText}>Tasks</Text>
-        <Text style={styles.counterNo}>0</Text>
+        <Text style={styles.counterNo}>{props.counter}</Text>
       </View>
     </View>
   );
