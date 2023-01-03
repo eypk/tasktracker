@@ -1,7 +1,5 @@
-import { StyleSheet, SafeAreaView, View } from "react-native";
-import TaskInput from "./components/TaskInput";
+import { StyleSheet, View } from "react-native";
 import TaskItems from "./components/TaskItems";
-TaskInput;
 
 export default function App() {
   return (
